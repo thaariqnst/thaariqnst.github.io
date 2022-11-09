@@ -21,9 +21,9 @@ body {
 
 .items{
     width: 100vw;
-    height: 70vh;
+    height: auto;
 
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 
