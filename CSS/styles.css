@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+body {
+    cursor: url(/Assets/cursor.png)50 50, auto !important;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+}
+
+.items{
+    width: 100vw;
+    height: 70vh;
+
+    padding-top: 5rem;
+}
+
+.item1{
+    width: 100vw;
+    height: 70vh;
+
+    padding-top: 4rem;
+}
+
+footer{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+hr {
+    border-top: 1.5px solid black;
+}
