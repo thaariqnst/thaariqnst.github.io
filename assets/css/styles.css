@@ -16,19 +16,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 .items{
     width: 100vw;
     height: auto;
 
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 
 footer{
-    padding-top: 7rem;
+    padding-top: 4rem;
     padding-bottom: 10rem;
 }
 
