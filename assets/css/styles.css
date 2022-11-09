@@ -33,10 +33,11 @@ body {
 }
 
 footer{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
 }
 
 hr {
-    border-top: 1.5px solid black;
+    border: 0.5px #000 solid;
+    opacity: 1;
 }
