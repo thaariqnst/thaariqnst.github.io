@@ -16,21 +16,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 4rem;
+    padding-bottom: 5rem;
 }
 
 .items{
     width: 100vw;
     height: 70vh;
 
-    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
-.item1{
-    width: 100vw;
-    height: 70vh;
-
-    padding-top: 4rem;
-}
 
 footer{
     padding-top: 7rem;
@@ -40,4 +35,12 @@ footer{
 hr {
     border: 0.5px #000 solid;
     opacity: 1;
+}
+
+.person{
+    margin-top: 3rem;
+}
+
+.type{
+    font-family: 'Times New Roman', Times, serif;
 }
