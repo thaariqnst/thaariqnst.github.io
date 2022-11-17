@@ -28,8 +28,8 @@ body {
 
 
 footer{
-    padding-top: 4rem;
-    padding-bottom: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 hr {
@@ -45,3 +45,6 @@ hr {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.nav-pills ::after{
+    
+}
