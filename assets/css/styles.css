@@ -4,7 +4,7 @@
 
 
 body {
-    cursor: url(/Assets/cursor.png)50 50, auto !important;
+    cursor: url(/assets/imgs/cursor.png)50 50, auto !important;
     /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
     font-family: 'Neue Haas Grotesk Display Pro', Sans-Serif;
     font-weight: 500;
