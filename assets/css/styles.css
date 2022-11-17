@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 
 
 body {
     cursor: url(/Assets/cursor.png)50 50, auto !important;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Neue Haas Grotesk Display Pro', Sans-Serif;
+    font-weight: 500;
     font-size: 0.9rem;
+    letter-spacing: 0.02rem;
 
 }
 
@@ -35,6 +39,7 @@ footer{
 hr {
     border: 0.5px #000 solid;
     opacity: 1;
+    
 }
 
 .person{
@@ -45,6 +50,17 @@ hr {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.nav-pills ::after{
+.linkedin{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 545px) {
     
+    .about-desc {
+        font-size: 1.9rem;
+    }
+
+
 }
