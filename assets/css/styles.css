@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     cursor: url(/assets/imgs/cursor.png)50 50, auto !important;
@@ -74,7 +76,7 @@ hr {
     justify-content: center;
     opacity:0;
     pointer-events: none;
-    transition: all .4s;
+    transition: all 1s;
   }
   
   .to-top.active {
