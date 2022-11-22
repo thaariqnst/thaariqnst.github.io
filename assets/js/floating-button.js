@@ -1,9 +1,9 @@
-const floating = document.querySelector('.floating-button');
+const toTop = document.querySelector(".to-top");
 
-window.addEventListener('scroll', e => {
-    if(window.scrollY > 70){
-        floating.classList.add('floating-button-on-scroll')
-    }else{
-        floating.classList.add('floating-button-on-scroll')
-    }
-});
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
